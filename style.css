@@ -1,0 +1,88 @@
+.profile-video {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #00a8ff;
+
+}
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f6fa;
+    color: #333;
+}
+
+
+header {
+    background-color: #2f3640;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 15px;
+    border-left: 5px solid #00a8ff;
+    padding-left: 10px;
+}
+
+/* ABOUT (photo + texte) */
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.about-container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #00a8ff;
+}
+
+.about-text {
+    flex: 1;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    background: #dcdde1;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+#projects p {
+    background: #dcdde1;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #2f3640;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
